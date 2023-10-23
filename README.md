@@ -1,2 +1,2 @@
 # html5-css3
-documents .html and .css
+HTML and CSS exercises for future reuse or observation. Feel free to use them.
