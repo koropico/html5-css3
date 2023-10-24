@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Raúl Martín Atencia">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ejercicio de listas </title>
+</head>
+
+<body>
+    <h1> Aircraft Types </h1>
+
+    <ol type="i">
+        <!-- I, i, A, a, 1  son los diferentes tipos que podemos cambiar en una lista <ol> -->
+        <li> General Aviation </li>
+        <ol type="a">
+            <li> Single Aviation Aircraft </li>
+            <li> Dual-Engine Aircraft </li>
+        </ol>
+        <li> Comemercial Aviation </li>
+        <ul style="list-style-type: disc;">
+            <!-- disc, circle, square, none son los diferentes tipos que podemos cambiar en una lista <ul> -->
+            <li> Dual-Engine </li>
+            <li> Tri-Engine</li>
+        </ul>
+    </ol>
+
+    <!-- Parte 2 combinando todo lo visto anteriormente -->
+    <ul style="list-style-type: square;">
+        <li> A </li>
+        <ul style="list-style-type: disc;">
+            <li> B </li>
+            <ol>
+                <li> C </li>
+                <li> D </li>
+            </ol>
+            <li> E </li>
+            <ul style="list-style-type: square;">
+                <li> F </li>
+                <li> G </li>
+            </ul>
+        </ul>
+        <li> B </li>
+    </ul>
+</body>
+
+</html>
