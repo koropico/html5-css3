@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Practica Pseudoselectores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <h1 class="Encabezado">
+         <a href="https://www.youtube.com/watch?v=9hhMUT2U2L4" target="_blank"> HORARIO DE CLASE CURSO 2023-2024 </a>
+    </h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>HORAS</th>
+                <th>LUNES</th>
+                <th>MARTES</th>
+                <th>MIERCOLES</th>
+                <th>JUEVES</th>
+                <th>VIERNES</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>8:00</td>
+                <th rowspan="2">Matemáticas</th>
+                <th>Lengua</th>
+                <th>Inglés</th>
+                <th colspan="2">Ciencias</th>
+            </tr>
+
+            <tr>
+                <td>9:00</td>
+                <th>Historia</th>
+                <th>Ciencias</th>
+                <th>Matemáticas</th>
+                <th>Lengua</th>
+            </tr>
+
+            <tr>
+                <td>10:00</td>
+                <th colspan="5">Recreo</th>
+            </tr>
+
+            <tr>
+                <td>10:30</td>
+                <th>Ingles</th>
+                <th rowspan="2">Ciencias</th>
+                <th>Matemáticas</th>
+                <th>Lengua</th>
+                <th>Historia</th>
+            </tr>
+
+            <tr>
+                <td>11:30</td>
+                <th>Historia</th>
+                <th>Ciencias</th>
+                <th>Matemáticas</th>
+                <th>Ingles</th>
+            </tr>
+        </tbody>
+    </table>
+
+    <form>
+        <p>
+            <label for="destino">Email </label>
+            <input type="email" name="destino" placeholder="Introduce Email destino" required>
+        </p>
+
+        <input type="submit" value="Envia horaria">
+    </form>
+
+</body>
+</html>
